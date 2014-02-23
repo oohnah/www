@@ -1,0 +1,33 @@
+$xtradk: #061013;
+
+@mixin dktextshadow {
+  -webkit-text-shadow: 0 0 4px $xtradk;
+  -moz-text-shadow: 0 0 4px $xtradk;
+  text-shadow: 0 0 4px $xtradk;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+}
+
+.jumbotron {
+  background-size: cover;
+  background-image: url(../img/jumbo1-lg.jpg);
+
+  text-align: center;
+  color: white;
+
+  h1 {
+    @include dktextshadow;
+    font-size: 4.2rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding-top: 200px;
+  }
+  min-height: 550px;
+}
+
+.logo {
+  width: 60%;
+}
