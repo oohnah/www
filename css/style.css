@@ -24,8 +24,29 @@ a {
     letter-spacing: -1px;
     padding-top: 200px; }
 
-h3 {
-  text-align: center; }
-
 .logo {
   width: 60%; }
+
+.trifecta {
+  margin-bottom: 20px;
+  text-align: center; }
+  .trifecta h3 {
+    text-transform: uppercase; }
+
+a.btn-primary, .btn-primary {
+  background-color: #283a4a;
+  border-color: #283a4a; }
+  a.btn-primary:hover, .btn-primary:hover {
+    background-color: #3db505;
+    border-color: #3db505; }
+
+footer {
+  font-weight: 300;
+  color: #e1e8ec;
+  background-color: #283a4a;
+  padding: 20px 0;
+  text-align: center; }
+  footer a {
+    color: #3db505; }
+    footer a:hover {
+      color: #b5db92; }

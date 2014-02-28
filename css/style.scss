@@ -42,11 +42,38 @@ a {
   min-height: 550px;
 }
 
-h3 {
-  text-align: center;
-  
-}
-
 .logo {
   width: 60%;
+}
+
+.trifecta {
+  margin-bottom: 20px;
+  text-align: center;
+
+  h3 {
+    text-transform: uppercase;
+  }
+}
+
+a.btn-primary, .btn-primary {
+  background-color: $dkblue;
+  border-color: $dkblue;
+  &:hover {
+    background-color: $clover;
+    border-color: $clover;
+  }
+}
+
+footer {
+  font-weight: 300;
+  color: $ltblue;
+  background-color: $dkblue;
+  padding: 20px 0;
+  text-align: center;
+  a {
+    color: $clover;
+    &:hover {
+      color: $ltmint;
+    }
+  }
 }
