@@ -64,6 +64,13 @@ a.btn-primary, .btn-primary {
   }
 }
 
+.twitter {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url('img/twitter-blu.png');
+}
+
 footer {
   font-weight: 300;
   color: $ltblue;

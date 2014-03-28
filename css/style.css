@@ -40,6 +40,12 @@ a.btn-primary, .btn-primary {
     background-color: #3db505;
     border-color: #3db505; }
 
+.twitter {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url("img/twitter-blu.png"); }
+
 footer {
   font-weight: 300;
   color: #e1e8ec;
