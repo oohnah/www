@@ -64,11 +64,26 @@ a.btn-primary, .btn-primary {
   }
 }
 
-.twitter {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  background-image: url('img/twitter-blu.png');
+.social {
+  a {
+    background-color: $dkblue;
+    display: inline-block;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  }
+  img {
+  width: 48px;
+  height: 48px;
+  }
+}
+
+a.twitter:hover {
+  background-color: #00ACED;
+}
+
+a.facebook:hover {
+  background-color: #3B5998;
 }
 
 footer {
