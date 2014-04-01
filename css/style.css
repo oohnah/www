@@ -26,10 +26,13 @@ a {
     -webkit-text-shadow: 0 0 4px #061013;
     -moz-text-shadow: 0 0 4px #061013;
     text-shadow: 0 0 4px #061013;
-    font-size: 4.2rem;
+    font-size: 4.5rem;
     font-weight: 600;
     letter-spacing: -1px;
-    padding-top: 200px; }
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    text-align: center; }
 
 .logo {
   width: 60%; }

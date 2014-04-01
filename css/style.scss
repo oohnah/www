@@ -42,10 +42,13 @@ a {
 
   h1 {
     @include dktextshadow;
-    font-size: 4.2rem;
+    font-size: 4.5rem;
     font-weight: 600;
     letter-spacing: -1px;
-    padding-top: 200px;
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
   }
 }
 
