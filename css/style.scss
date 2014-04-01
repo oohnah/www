@@ -11,6 +11,11 @@ $cerulean: #02779E;
   text-shadow: 0 0 4px $xtradk;
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 1.6rem;
