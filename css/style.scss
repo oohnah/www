@@ -47,8 +47,9 @@ a {
     letter-spacing: -1px;
     position: absolute;
     bottom: 80px;
-    width: 100%;
+    width: inherit;
     text-align: center;
+    margin: 0 auto;
   }
 }
 
