@@ -10,11 +10,14 @@ a {
     color: #3db505; }
 
 .jumbotron {
+  height: auto;
+  min-height: 100%;
+  margin-bottom: 0;
+  webkit-background-size: cover;
   background-size: cover;
   background-image: url(../img/jumbo1-lg.jpg);
   text-align: center;
-  color: white;
-  min-height: 550px; }
+  color: white; }
   .jumbotron h1 {
     -webkit-text-shadow: 0 0 4px #061013;
     -moz-text-shadow: 0 0 4px #061013;
@@ -28,7 +31,7 @@ a {
   width: 60%; }
 
 .trifecta {
-  margin-bottom: 20px;
+  margin: 40px auto 60px;
   text-align: center; }
   .trifecta h3 {
     text-transform: uppercase; }
@@ -57,6 +60,7 @@ a.facebook:hover {
   background-color: #3B5998; }
 
 footer {
+  font-size: 2.75rem;
   font-weight: 300;
   color: #e1e8ec;
   background-color: #283a4a;
