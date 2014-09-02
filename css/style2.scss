@@ -1,0 +1,113 @@
+$dkblue: #283A4A;
+$ltblue: #E1E8EC;
+$clover: #3DB505;
+$ltmint: #B5DB92;
+$xtradk: #061013;
+$cerulean: #02779E;
+
+@mixin dktextshadow {
+  -webkit-text-shadow: 0 0 4px $xtradk;
+  -moz-text-shadow: 0 0 4px $xtradk;
+  text-shadow: 0 0 4px $xtradk;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  background-color: $ltblue;
+  color: $dkblue;
+}
+
+a {
+  color: $cerulean;
+  &:hover {
+    color: $clover;
+  }
+}
+
+.jumbotron {
+  height: auto;
+  min-height: 100%;
+  margin-bottom: 0;
+  webkit-background-size: cover;
+  background-size: cover;
+  background-image: url(../img/jumbo1-lg.jpg);
+  text-align: center;
+  color: white;
+
+  h1 {
+    @include dktextshadow;
+    font-size: 4.5rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: absolute;
+    bottom: 80px;
+    width: inherit;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+.logo {
+  width: 60%;
+}
+
+.trifecta {
+  margin: 40px auto 60px;
+  text-align: center;
+
+  h3 {
+    text-transform: uppercase;
+  }
+}
+
+a.btn-primary, .btn-primary {
+  background-color: $dkblue;
+  border-color: $dkblue;
+  &:hover {
+    background-color: $clover;
+    border-color: $clover;
+  }
+}
+
+.social {
+  a {
+    background-color: $dkblue;
+    display: inline-block;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  }
+  img {
+  width: 48px;
+  height: 48px;
+  }
+}
+
+a.twitter:hover {
+  background-color: #00ACED;
+}
+
+a.facebook:hover {
+  background-color: #3B5998;
+}
+
+footer {
+  font-size: 2.75rem;
+  font-weight: 300;
+  color: $ltblue;
+  background-color: $dkblue;
+  padding: 20px 0;
+  text-align: center;
+  a {
+    color: $clover;
+    &:hover {
+      color: $ltmint;
+    }
+  }
+}
